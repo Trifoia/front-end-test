@@ -6,10 +6,17 @@
 #DE5842 orange
 */
 
-header {
+
+/* header {
     display: block;
     padding-top: 70px;
+} */
+
+div#title {
+    margin: 20px;
     position: relative;
+    background-color: #A2D7D8;
+    display: inline-block;
 }
 
 body { 
@@ -26,6 +33,7 @@ body {
 div.card {
     padding-top: 40px;
     margin: 20px;
+    background-color: #EDEDEA;
 }
 
 ol, ul {
@@ -35,7 +43,6 @@ ol, ul {
 a {
     outline: none;
 }
-
 
 img {
     border-style: none;
