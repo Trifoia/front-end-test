@@ -6,11 +6,14 @@
 #DE5842 orange
 */
 
-
-/* header {
-    display: block;
-    padding-top: 70px;
-} */
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 300ms linear;
+  }
+  
+.navbar.scrolled .nav-link {
+    color:#555;
+  }
 
 div#title {
     margin: 20px;
@@ -31,7 +34,6 @@ body {
 }
 
 div.card {
-    padding-top: 40px;
     margin: 20px;
     background-color: #EDEDEA;
 }
@@ -55,4 +57,8 @@ img {
     float: left;
     clear: both;
     z-index: 1;
+}
+
+footer {
+    background-color: #A2D7D8;
 }
