@@ -6,16 +6,23 @@
 #DE5842 orange
 */
 
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 80ms linear;
+  }
+  
+.navbar.scrolled .nav-link {
+    color:#555;
+  }
 
-/* header {
-    display: block;
-    padding-top: 70px;
-} */
+#mainNavLink {
+    padding: 0.75em;
+}
 
 div#title {
     margin: 20px;
     position: relative;
-    background-color: #A2D7D8;
+    background-color: white;
     display: inline-block;
 }
 
@@ -27,21 +34,14 @@ body {
     font-size: 18px;
     letter-spacing: 0.5px;
     font-weight: 400;
-    background-color: #A2D7D8;
+    background-image: linear-gradient(to bottom, #a2d7d8, #a5dad3, #abddcd, #b4dfc6, #bfe1bf);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 div.card {
-    padding-top: 40px;
-    margin: 20px;
-    background-color: #EDEDEA;
-}
-
-ol, ul {
-    list-style: none;
-}
-
-a {
-    outline: none;
+    margin-top: 1em;
+    border-radius: 15px;
+    background-color: white;
 }
 
 img {
