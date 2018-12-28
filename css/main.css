@@ -1,7 +1,6 @@
 /* Main Styles */
 body { 
     margin-top: 1em;
-    padding: 2.5em;
     line-height: 1.4;
     font-size: 1.25rem;
     background-image: linear-gradient(to bottom, #a2d7d8, #a4d9d4, #a8dcd0, #addecb, #b4dfc6, #b4dfc6, #b4dfc6, #b4dfc6, #addecb, #a8dcd0, #a4d9d4, #a2d7d8);
@@ -9,29 +8,27 @@ body {
 }
 
 /* Trifoia logo */
-.logo {
+/* .logo {
     border-style: none;
     display: block;
     float: left;
     position: relative;
-    padding-left: 0.5em;
-    float: left;
+    padding-left: 0.25em;
     clear: both;
     z-index: 1;
-    width: 100%;
+    max-width: 100%;
     height: auto;
-}
+}  */
 
 /* Navbar */
-
-/* .navbar {
-    position: relative; 
-    display: block; 
-} */
+.navbar {
+    position: relative;
+    width: auto;
+}
 
 .navbar.scrolled {
     background-color: #fff !important;
-    transition: background-color 100ms linear;
+    transition: background-color 200ms linear;
   }
   
 .navbar.scrolled .nav-link {
@@ -39,17 +36,12 @@ body {
   }
 
 #mainNavLink {
-    margin: 0.75em;
+    margin: 1em;
 }
 
 /* Divs and Cards */
-
-.about-section {
-    margin-top: 1.5em;
-}
-
 div.card {
-    margin-top: 1em;
+    margin: 1em 1.5em;
     padding-left: 1em;
     padding-right: 1em;
     border-radius: 15px;
