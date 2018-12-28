@@ -131,10 +131,42 @@ Submission of materials will be conducted through Git, to show that you have som
 2. Once on your own fork, go wild! Use whatever techniques and environments you are most comfortable with
 3. When you are ready for final submission, make a pull request into the upstream branch with your name on it and your work will be reviewed
 
-If building / running / looking at your work requires any special tools or steps, list those below. There is also space for any notes or feedback you would like to give
+If building / running / looking at your work requires any special tools or steps, list those below. There is also space for any notes or feedback you would like to give.
 
 # Building
-Fill in with your own build instructions
+
+Clone/download this repo. Before running locally:
+
+1. Install Bootstrap v4.2. Use of a package manager such as [npm](https://www.npmjs.com/) is recommended.
+Simply install with the following command:
+
+`npm install bootstrap`
+
+For more details, or for other downloading options, see [installing Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/download/).
+
+2. Install jQuery using the following command (if using [npm](http://www.npmjs.com)).
+
+`npm install jquery`
+
+For more details, or for other downloading options, see [installing jQuery](https://jquery.com/download/).
+
 
 # Notes
-Fill in with your own notes / feedback
+This project was built using HTML5, CSS3, JavaScript, [jQuery](https://jquery.com/), and [Bootstrap v4.2](https://getbootstrap.com/docs/4.2/getting-started/introduction/), which includes built-in [Sass](https://sass-lang.com/) variables.
+
+Bootstrap was chosen for this project because of its built-in responsive design elements and accessibility-related features. [Read more](https://getbootstrap.com/docs/4.0/getting-started/accessibility) about Bootstrap and accessibility.
+
+Content can be expanded via the button (labeled Front End Developer). It should be noted that in the case of multiple open positions, a drop-down menu within the application form would be necessary to allow a user to choose a position before submitting. Alternatively, forms could be attached to each individual position.
+
+The following tools and resources used to test for accessibility.
+
+[The Colour Contrast Analyser (CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/)
+
+[WebAIM](https://webaim.org/)
+
+[W3C Validator](https://validator.w3.org/)
+
+[Color contrast and accessibility](https://www.joedolson.com/2006/08/on-the-readability-of-inverted-color-schemes/)
+
+[Guidelines for line spacing](https://css-tricks.com/keeping-track-letter-spacing-guidelines/)
+
