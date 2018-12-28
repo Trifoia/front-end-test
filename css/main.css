@@ -1,5 +1,6 @@
 /* Main Styles */
 body { 
+    padding-top: 70px;
     margin-top: 1em;
     line-height: 1.4;
     font-size: 1.25rem;
@@ -7,25 +8,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-/* Trifoia logo */
-/* .logo {
-    border-style: none;
-    display: block;
-    float: left;
-    position: relative;
-    padding-left: 0.25em;
-    clear: both;
-    z-index: 1;
-    max-width: 100%;
-    height: auto;
-}  */
-
-/* Navbar */
-.navbar {
-    position: relative;
-    width: auto;
-}
-
+/* Navigation */
 .navbar.scrolled {
     background-color: #fff !important;
     transition: background-color 10ms linear;
@@ -70,4 +53,18 @@ div.card {
 .bottom a {
     color: black;
     text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .navbar.fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
 }
