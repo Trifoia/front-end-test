@@ -1,7 +1,6 @@
 /* Main Styles */
-
 body { 
-    margin-top: 3em;
+    margin-top: 1em;
     padding: 2.5em;
     line-height: 1.4;
     font-size: 1.25rem;
@@ -10,14 +9,12 @@ body {
 }
 
 /* Trifoia logo */
-
 .logo {
     border-style: none;
     display: block;
     float: left;
     position: relative;
     padding-left: 0.5em;
-    position: relative;
     float: left;
     clear: both;
     z-index: 1;
@@ -26,6 +23,11 @@ body {
 }
 
 /* Navbar */
+
+/* .navbar {
+    position: relative; 
+    display: block; 
+} */
 
 .navbar.scrolled {
     background-color: #fff !important;
@@ -64,14 +66,11 @@ div.card {
 }
 
 /* Button */
-
 .btn {
     margin-top: 1em;
 }
 
-
 /* Footer */
-
 .bottom {
     font-size: 1em;
 }
