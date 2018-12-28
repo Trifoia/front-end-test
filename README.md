@@ -158,7 +158,7 @@ Bootstrap was chosen for this project because of its built-in responsive design 
 
 Content can be expanded via the button (labeled Front End Developer). It should be noted that in the case of multiple open positions, a drop-down menu within the application form would be necessary to allow a user to choose a position before submitting. Alternatively, forms could be attached to each individual position.
 
-The following tools and resources used to test for accessibility.
+The following tools and resources were used to test for accessibility.
 
 [The Colour Contrast Analyser (CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/)
 
