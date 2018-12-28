@@ -28,7 +28,7 @@ body {
 
 .navbar.scrolled {
     background-color: #fff !important;
-    transition: background-color 200ms linear;
+    transition: background-color 10ms linear;
   }
   
 .navbar.scrolled .nav-link {
