@@ -134,7 +134,51 @@ Submission of materials will be conducted through Git, to show that you have som
 If building / running / looking at your work requires any special tools or steps, list those below. There is also space for any notes or feedback you would like to give
 
 # Building
-Fill in with your own build instructions
+[View the live site hosted on Github Pages](https://mckelveygreg.github.io/front-end-test/)
+
+If you would like to fiddle with things on your own, 
+`npm install`
+
+To start a development server, either 
+`npm run develop`
+or
+```
+npm i -g gatsby-cli
+gatsby develop
+```
+To make and serve a production build, either
+```
+npm run build
+npm run serve
+```
+or
+```
+gatsby build
+gatsby serve
+```
+
+# Project structure
+- For this project, I used the static site generator [Gatsby](https://gatsbyjs.org). Gatsby lets you build in React, and then generates an optimized static build of your HTML, CSS, and Javascript.  
+- To implement the body, I imported the provided markdown copy with GraphQL.  
+- The page lives in src/pages/index.js, but I broke everything down into separate and potentially reusable components. The global styles are found in src/components/layout.js, which is a page wrapper that can be used to maintain consistent style.  
+- Because forms are very verbose in React, I used a helper library [Formik](https://jaredpalmer.com/formik/). You can view the submission results in the console.
+- For styling, I used the CSS-in-JS solution [Styled-Components](https://mckelveygreg.github.io/front-end-test/). The non-global styles will be found in each component file, written in a scss or less style of nesting selectors. 
+- For the subtle fade in and logo animation, I used [React Spring](https://react-spring.surge.sh/), a simple spring-physics based library that helped easily implement custom animations. 
+
 
 # Notes
-Fill in with your own notes / feedback
+TODO:
+- [x] Header
+- [x] Body
+- [x] Footer
+- [x] Colors
+  - #7497E1
+  - #6CEB74
+  - #FFAA33
+  - #202121
+- [x] Font
+- [x] Implement "Cool words"
+- [x] Run Lighthouse Audit
+- [x] Responsive
+- [x] Make build instructions
+- [x] Host on github pages
