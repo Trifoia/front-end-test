@@ -4,7 +4,7 @@ Welcome to the Trifoia frontend developer test! This test is designed to be as o
 # Task
 Your task will be to recreate the [Trifoia Careers page](https://trifoia.com/careers), under the following guidelines. Please be sure to read this _entire_ README before beginning!
 1. You will be provided with the copy to add to the page
-2. You are _not_ allowed to use the official Trifoia colors (other than in the trifoia logo)
+2. You are _not_ allowed to use the official Trifoia colors (but you can use the Trifoia logo)
 3. You are _not_ allowed to use the official Trifoia font family (fira-sans)
 3. You must submit your work via git
 
@@ -17,71 +17,101 @@ Links on your page should navigate to the correct pages on the actual Trifoia we
 
 ## Header
 Header should include tabs for the following pages:
+- Home
 - Who We Are
-- What We Do
-- How We Do It
-- What's Happening
+- Case Studies
+- Blog
+- Projects
+- Contact
 
-Should also include a header image / text that links to the home page, a link to the "Say Hello" Page, as well as Facebook, LinkedIn, and Twitter links. A Trifoia brand image is provided for convenience, but doesn't have to be used
+Should also include a header image / text that links to the home page
 
 ## Body
 The body of the page should have the following text (presented here in raw Markdown)
 ```
 # Work with Trifoia
-## About Trifoia
 Trifoia is an equal opportunity employer committed to cultural diversity. Trifoia encourages all qualified individuals to apply, and does not discriminate on the basis of any protected status, including race, gender, veteran and disability status.
 
 Trifoia is proud to offer a robust benefits package to eligible employees, including health insurance, retirement plans and paid time off.
 ---
-## Current Open Positions
-### Front End Developer
-We are currently looking for a Front-End Developer who can advance our mission to craft exceptional digital learning experiences. We build media-rich websites and mobile applications for customers in need of customized training. The Front-End Developer will be responsible for programming and maintaining all aspects of the project’s front-end, user facing components. You will work closely with the Production Department and internal clients in the Research and Design Department to ensure delivery of quality projects that are on time and on budget.
+## Front End Developer
+The Front End Developer is responsible for designing, programming, and maintaining all aspects of the project’s front-end, user-facing components including website interactivity components, visualizations, data intake, browser compatibility, accessibility, and other elements of website and applications that users engage with.
 
-The Front-End Developer has a deep understanding of responsive design principles (mobile first development); test driven development; development for accessibility, usability, and design; agile development practices; and predicting time required for projects. Strong competency in working collaboratively with small, diverse teams, working against tight deadlines, time management and tracking, attention to detail, and a growth mindset are required.
+The Front End Developer has a deep understanding of responsive design principles (mobile first development); test driven development; development for accessibility, usability, and design; agile development practices; and estimating time required for projects. A successful candidate for this position will have strong competency in working collaboratively with small, diverse teams, working against tight deadlines, time management and tracking, attention to detail, and a growth mindset.
 
-Reports to: Director of Production
+Reports to: eLearning Department Manager
 
-Classification: Full-time non-exempt
+Direct reports: None
 
-Skills and Qualifications:
-- Demonstrable Skill Using the Following Systems:
-  - HTML
-  - HTML Preprocessors (PUG, EJS)
-  - CSS
-  - CSS Methodologies (BEM, SMACSS, OOCSS)
-  - CSS preprocessors (LESS, SCSS, PostCSS)
-  - Modern CSS (Flexbox, Grid)
-  - Modern JavaScript (ES6+)
-  - Classic JavaScript (ES5)
-  - Browser technology and quirks (Chrome, Safari, IE)
-  - Build Tools (Make, Gulp, NPM Scripts)
-  - Asset Bundlers (WebPack, Browserify)
-  - Testing Frameworks (Mocha, Karma)
-  - Git and GitHub
-  - Microsoft Office Suite (Word, Excel, Outlook)
-  - Remote working and communication tools (GoToMeeting, Slack, Asana)
-  - Adobe Creative Suite
-- Familiarity with the Following Systems:
-  - Node.js
-  - NPM
-  - Wordpress
-  - Virtual Machines (Virtual Box)
-  - Video Streaming (dashjs)
-- Skill / Familiarity with these systems is a bonus:
-  - AWS (S3, EC2, CodeBuild, CodePipeline, etc)
-  - Wordpress Theme Development
-  - PHP
-  - Ubuntu Server
-  - xAPI
-  - Learning Management Systems (Litmos, Canvas)
-  - Learning Record Stores (Learning Locker)
+Classification: Exempt Full Time
+
+### Duties and Responsibilities
+- Must be able to perform all essential job functions with or without Reasonable Accommodation.
+- Plan and execute web accessibility features to WCAG and 508 accessibility standards
+- Collaborate with clients and graphic design team to plan and execute design standards
+- Consistently understand and follow details of design from the design team
+- Develop new user-facing features
+- Build reusable code and libraries for future use
+- Write functional requirement documents and specifications
+- Ensure the technical feasibility of UI/UX designs
+- Optimize applications for maximum speed and scalability
+- Ensure all user input is validated before submitting to back-end
+- Effectively collaborate with team members/stakeholders
+- Develop functional and appealing web- and mobile-based applications based on design prototypes, usability best practices, etc.
+- Provide website maintenance and enhancements
+- Use a combination of programming languages to write web pages
+- Assist back-end developers with coding and troubleshooting
+- Create cascading style sheets (CSS) that are consistent across all browsers and platforms
+- Maintain graphic standards and branding throughout the product’s interface
+- Stay current on emerging technologies that pertain to job duties
+- Consistently promote usability best practices
+- Ensure products are mobile-friendly
+- Create instructional design assets (SCORM packages, Articulate or similar) according to design specifications.
+
+### Skills and Qualifications:
+3 years or more professional front end development experience. Required skills and qualifications:
+
+- WordPress 
+- HTML
+- Modern CSS 
+- Modern JavaScript (ES6+)
+- Browser technology and quirks (Chrome, Safari, IE)
+- Build Tools (Make, NPM Scripts)
+- Asset Bundlers (WebPack, Browserify)
+- Front End Frameworks (React or similar)
+- Testing Frameworks (Mocha)
+- Git and GitHub
+- Microsoft Office Suite (Word, Excel, Outlook)
+- Remote working and communication tools (GoToMeeting, Slack, Asana)
+- Adobe Creative Suite
+
+Familiarity with the following tools:
+
+- Node.js/NPM
+- Virtual Machines (Virtual Box)
+- HTML Preprocessors (PUG, EJS)
+- CSS Methodologies (BEM, SMACSS, OOCSS)
+- CSS Preprocessors (LESS, SCSS, PostCSS) 
+- Ubuntu Server
+- PHP (WordPress)
+
+Skill/Familiarity with the following tools is not necessary, but preferred:
+
+- LearnDash
+- H5P
+- AWS (S3, EC2, CodeBuild, CodePipeline, etc)
+- xAPI
+- Learning Management Systems (Litmos, Canvas)
+- Learning Record Stores (Learning Locker)
+- Video Streaming (Shaka)
+
+### Location
+Eugene, OR. Will consider remote for qualified candidates.
+
+This position is open _until filled_
 
 To Apply:
 This position is OPEN UNTIL FILLED
-
-Please fill out the form below to apply. Don’t forget to attach your resume, cover letter and provide a link to your portfolio.
-
-If you are selected for the candidate pool you will be asked to complete a skills assessment.
 ---
 ## Interested?
 Trifoia is a team of content developers, instructional designers, technology experts, researchers, media producers, and storytellers who produce training content for maximum impact and reach.
@@ -92,8 +122,11 @@ If so, attach your resume and cover letter and drop us a line through the contac
 ```
 
 Implement your own dummy contact form with the following fields
+- First Name (required)
+- Last Name (required)
 - Email (required)
 - Phone number (optional)
+- Position Drop-down (Required)
 - Message (required)
 - Resume File Upload (required)
 - Cover Letter File Upload (required)
@@ -101,15 +134,17 @@ Implement your own dummy contact form with the following fields
 ## Footer
 The footer should have the following copyright text:
 ```
-© 2018 Trifoia. All rights reserved.
+© 2019 Trifoia. All rights reserved.
 ```
 
 As well as links to the following pages:
-- Terms of Use
+- Careers
+- Past Projects
 - Privacy Policy
 - COI Policy
-- Careers
-- Projects
+- Terms of Use
+
+And social media links to the following 
 
 # Colors
 The following Hex codes represent our six official "Trifoia" colors:
